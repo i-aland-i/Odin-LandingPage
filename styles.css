@@ -1,0 +1,96 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header,
+footer {
+    color: white;
+    background-color: #1f2937;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    text-align: center;
+}
+/* The logo links class contains the header and the three header links all together */
+.logolinks {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logolinks img {
+    border-radius: 10%;
+}
+
+.logolinks ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.logolinks ul a {
+    color: white;
+    text-decoration: none;
+}
+/* The awesome class contains the two headings, the sign up button and the landscape image */
+.awesome {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+.headings {
+    flex: 1 1 0%;
+    gap: 0px;
+}
+.headings h1 {
+    margin: auto;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.headings h6 {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.headings button {
+    display: inline;
+    color: white;
+    font-size: 24px;
+    margin: 6px 20px 20px 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border-color: #3882f6;
+    background-color: #3882f6;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.headings button:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.awesome img {
+    flex: 1.3 1 0%;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 2%;
+}
+/* The awesome class contains the two headings, the sign up button and the landscape image */
+.thefour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thefour h3 {
+}
