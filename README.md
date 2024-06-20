@@ -1,2 +1,2 @@
 # Odin-LandingPage
-A Landing Page as instructed from The Odin Project
+A Landing Page as instructed by The Odin Project
